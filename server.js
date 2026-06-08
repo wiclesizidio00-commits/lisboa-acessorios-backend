@@ -9,7 +9,7 @@ const cors       = require('cors');
 const { MercadoPagoConfig, Preference } = require('mercadopago');
 
 const app  = express();
-app.use(cors());
+const ACCESS_TOKEN = 'APP_USR-6660834644178503-060500-34233834d59144e8f0d1298b12b6a5a3-2986750195';
 app.use(express.json());
 
 // ╔══════════════════════════════════════════════════════════╗
